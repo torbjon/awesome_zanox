@@ -1,0 +1,27 @@
+<soap:Envelope
+    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <GetProfileResponse
+            xmlns="http://api.zanox.com/namespace/2011-03-01/">
+            <profileItem id="123456">
+                <adrank>0.0</adrank>
+                <firstName>Maksim</firstName>
+                <lastName>Berjoza</lastName>
+                <email>maksim.berjoza@gmail.com</email>
+                <country>LV</country>
+                <street1>Brivibas 321-123</street1>
+                <city>Riga</city>
+                <zipcode>1234</zipcode>
+                <company>Berjoza SIA</company>
+                <phone>+26123321</phone>
+                <mobile>0</mobile>
+                <language>en_US</language>
+                <title></title>
+                <loginName>some_login_name</loginName>
+                <userName>some_user_name</userName>
+                <isAdvertiser>false</isAdvertiser>
+                <isSublogin>true</isSublogin>
+            </profileItem>
+        </GetProfileResponse>
+    </soap:Body>
+</soap:Envelope>

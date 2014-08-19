@@ -1,0 +1,27 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <GetProgramApplicationsResponse xmlns="http://api.zanox.com/namespace/2011-03-01/">
+            <page>0</page>
+            <items>10</items>
+            <total>2</total>
+            <programApplicationItems>
+                <programApplicationItem id="123">
+                    <program active="true" id="12">ABC</program>
+                    <adspace id="123456">blabla</adspace>
+                    <status>rejected</status>
+                    <createDate>2014-08-12T16:38:34.350+02:00</createDate>
+                    <allowTpv>false</allowTpv>
+                    <approvedDate>2014-08-19T09:45:27.087+02:00</approvedDate>
+                </programApplicationItem>
+                <programApplicationItem id="124">
+                    <program active="true" id="13">CBA</program>
+                    <adspace id="123457">blabla</adspace>
+                    <status>confirmed</status>
+                    <createDate>2014-08-12T16:38:44.890+02:00</createDate>
+                    <allowTpv>false</allowTpv>
+                    <approvedDate>2014-08-13T13:41:19.997+02:00</approvedDate>
+                </programApplicationItem>
+            </programApplicationItems>
+        </GetProgramApplicationsResponse>
+    </soap:Body>
+</soap:Envelope>
