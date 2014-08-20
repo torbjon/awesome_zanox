@@ -1,0 +1,157 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <GetAdmediaResponse xmlns="http://api.zanox.com/namespace/2011-03-01/">
+            <page>0</page>
+            <items>10</items>
+            <total>158</total>
+            <admediumItems>
+                <admediumItem id="668433">
+                    <name>Generic_DE_120x600</name>
+                    <adrank>3.0</adrank>
+                    <admediumType>image</admediumType>
+                    <program id="11584">Smartbox DE</program>
+                    <height>600</height>
+                    <width>120</width>
+                    <format id="1">120 x 600 IMU Skyscraper</format><code></code>
+                    <category id="65876">Banners</category>
+                    <trackingLinks>
+                        <trackingLink adspaceId="2000105">
+                            <ppv>http://ad.zanox.com/ppv/?28714211C276396&amp;zpar9=[[xxx]]</ppv>
+                            <ppc>http://ad.zanox.com/ppc/?28714211C276396&amp;zpar9=[[xxx]]</ppc>
+                        </trackingLink>
+                    </trackingLinks>
+                </admediumItem>
+                <admediumItem id="668427">
+                    <name>DE_120x60</name>
+                    <adrank>1.6</adrank>
+                    <admediumType>image</admediumType>
+                    <program id="11584">Smartbox DE</program>
+                    <title>www.smartbox.com</title>
+                    <height>60</height>
+                    <width>120</width>
+                    <format id="12">120 x 60 IMU Button #2</format><code></code>
+                    <trackingLinks>
+                        <trackingLink adspaceId="2000105">
+                            <ppv>http://ad.zanox.com/ppv/?28714212C59150397&amp;zpar9=[[xxx]]</ppv>
+                            <ppc>http://ad.zanox.com/ppc/?28714212C59150397&amp;zpar9=[[xxx]]</ppc>
+                        </trackingLink>
+                    </trackingLinks>
+                </admediumItem>
+                <admediumItem id="816033">
+                    <name>Erlebnisgeschenke in Fulda</name>
+                    <adrank>0.0</adrank>
+                    <admediumType>text</admediumType>
+                    <program id="11584">Smartbox DE</program>
+                    <title>Erlebnisgeschenke in Fulda</title><code></code>
+                    <category id="65872">Text</category>
+                    <trackingLinks>
+                        <trackingLink adspaceId="2000105">
+                            <ppv>http://ad.zanox.com/ppv/?28714213C80894666&amp;zpar9=[[xxx]]</ppv>
+                            <ppc>http://ad.zanox.com/ppc/?28714213C80894666&amp;zpar9=[[xxx]]</ppc>
+                        </trackingLink>
+                    </trackingLinks>
+                </admediumItem>
+                <admediumItem id="816684">
+                    <name>Sektfrühstück</name>
+                    <adrank>0.0</adrank>
+                    <admediumType>text</admediumType>
+                    <program id="11584">Smartbox DE</program>
+                    <title>Sektfrühstück</title><code></code>
+                    <category id="65872">Text</category>
+                    <trackingLinks>
+                        <trackingLink adspaceId="2000105">
+                            <ppv>http://ad.zanox.com/ppv/?28714214C34578568&amp;zpar9=[[xxx]]</ppv>
+                            <ppc>http://ad.zanox.com/ppc/?28714214C34578568&amp;zpar9=[[xxx]]</ppc>
+                        </trackingLink>
+                    </trackingLinks>
+                </admediumItem>
+                <admediumItem id="815584">
+                    <name>Erlebnisgeschenke in Uelzen</name>
+                    <adrank>0.0</adrank>
+                    <admediumType>text</admediumType>
+                    <program id="11584">Smartbox DE</program>
+                    <title>Erlebnisgeschenke in Uelzen</title><code></code>
+                    <category id="65872">Text</category>
+                    <trackingLinks>
+                        <trackingLink adspaceId="2000105">
+                            <ppv>http://ad.zanox.com/ppv/?28714215C61643813&amp;zpar9=[[xxx]]</ppv>
+                            <ppc>http://ad.zanox.com/ppc/?28714215C61643813&amp;zpar9=[[xxx]]</ppc>
+                        </trackingLink>
+                    </trackingLinks>
+                </admediumItem>
+                <admediumItem id="825272">
+                    <name>Kerzenscheindinner_468 x 60</name>
+                    <adrank>0.0</adrank>
+                    <admediumType>image</admediumType>
+                    <program id="11584">Smartbox DE</program>
+                    <height>60</height>
+                    <width>468</width>
+                    <format id="8">468 x 60 IMU Full Banner</format><code></code>
+                    <category id="65876">Banners</category>
+                    <trackingLinks>
+                        <trackingLink adspaceId="2000105">
+                            <ppv>http://ad.zanox.com/ppv/?28714216C26817771&amp;zpar9=[[xxx]]</ppv>
+                            <ppc>http://ad.zanox.com/ppc/?28714216C26817771&amp;zpar9=[[xxx]]</ppc>
+                        </trackingLink>
+                    </trackingLinks>
+                </admediumItem>
+                <admediumItem id="816682">
+                    <name>Kochkurs</name>
+                    <adrank>0.0</adrank>
+                    <admediumType>text</admediumType>
+                    <program id="11584">Smartbox DE</program>
+                    <title>Kochkurs</title><code></code>
+                    <category id="65872">Text</category>
+                    <trackingLinks>
+                        <trackingLink adspaceId="2000105">
+                            <ppv>http://ad.zanox.com/ppv/?28714219C40602883&amp;zpar9=[[xxx]]</ppv>
+                            <ppc>http://ad.zanox.com/ppc/?28714219C40602883&amp;zpar9=[[xxx]]</ppc>
+                        </trackingLink>
+                    </trackingLinks>
+                </admediumItem>
+                <admediumItem id="815603">
+                    <name>Erlebnisgeschenke in Passau</name>
+                    <adrank>0.0</adrank>
+                    <admediumType>text</admediumType>
+                    <program id="11584">Smartbox DE</program>
+                    <title>Erlebnisgeschenke in Passau</title><code></code>
+                    <category id="65872">Text</category>
+                    <trackingLinks>
+                        <trackingLink adspaceId="2000105">
+                            <ppv>http://ad.zanox.com/ppv/?28714217C85505346&amp;zpar9=[[xxx]]</ppv>
+                            <ppc>http://ad.zanox.com/ppc/?28714217C85505346&amp;zpar9=[[xxx]]</ppc>
+                        </trackingLink>
+                    </trackingLinks>
+                </admediumItem>
+                <admediumItem id="815612">
+                    <name>Erlebnisgeschenke in Nürnberg</name>
+                    <adrank>0.0</adrank>
+                    <admediumType>text</admediumType>
+                    <program id="11584">Smartbox DE</program>
+                    <title>Erlebnisgeschenke in Nürnberg</title><code></code>
+                    <category id="65872">Text</category>
+                    <trackingLinks>
+                        <trackingLink adspaceId="2000105">
+                            <ppv>http://ad.zanox.com/ppv/?28714218C86667025&amp;zpar9=[[xxx]]</ppv>
+                            <ppc>http://ad.zanox.com/ppc/?28714218C86667025&amp;zpar9=[[xxx]]</ppc>
+                        </trackingLink>
+                    </trackingLinks>
+                </admediumItem>
+                <admediumItem id="815626">
+                    <name>Erlebnisgeschenke in Landshut</name>
+                    <adrank>0.0</adrank>
+                    <admediumType>text</admediumType>
+                    <program id="11584">Smartbox DE</program>
+                    <title>Erlebnisgeschenke in Landshut</title><code></code>
+                    <category id="65872">Text</category>
+                    <trackingLinks>
+                        <trackingLink adspaceId="2000105">
+                            <ppv>http://ad.zanox.com/ppv/?28720866C52976227&amp;zpar9=[[xxx]]</ppv>
+                            <ppc>http://ad.zanox.com/ppc/?28720866C52976227&amp;zpar9=[[xxx]]</ppc>
+                        </trackingLink>
+                    </trackingLinks>
+                </admediumItem>
+            </admediumItems>
+        </GetAdmediaResponse>
+    </soap:Body>
+</soap:Envelope>

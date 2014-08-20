@@ -9,7 +9,10 @@ module AwesomeZanox
     end
 
     def client(url)
-      Savon.client(wsdl: url)
+      Savon.client do
+        wsdl url
+        # log true
+      end
     end
 
     def signature(service_name, operation, date = nil, nonce = nil)
@@ -28,7 +31,7 @@ module AwesomeZanox
       Time.now.utc.strftime('%Y-%m-%dT%H:%M:%S')
     end
 
-    def message(service_name, operation, date = nil, nonce = nil, opts = {})
+    def auth_message(service_name, operation, date = nil, nonce = nil, opts = {})
       date  ||= get_date
       nonce ||= get_nonce
       {
@@ -36,6 +39,12 @@ module AwesomeZanox
         'timestamp' => date,
         'nonce' => nonce,
         'signature' => signature(service_name, operation, date, nonce)
+      }.merge(opts)
+    end
+
+    def message(opts = {})
+      {
+        'connectId' => connect_id
       }.merge(opts)
     end
   end
