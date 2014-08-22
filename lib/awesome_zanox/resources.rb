@@ -5,13 +5,18 @@ module AwesomeZanox
     def initialize(connect_id = '', secret_key = '')
       @connect_id = connect_id.strip
       @secret_key = secret_key.strip
-      @url = 'https://api.zanox.com/wsdl/2011-03-01'
+      @publisher_url = 'https://api.zanox.com/wsdl/2011-03-01'
+      @data_url = 'https://data.zanox.com/wsdl/2011-05-01'
     end
 
     def client(url)
       Savon.client do
         wsdl url
+        convert_request_keys_to :none
+        strip_namespaces true
         # log true
+        # log_level :debug
+        # pretty_print_xml true
       end
     end
 
@@ -39,13 +44,17 @@ module AwesomeZanox
         'timestamp' => date,
         'nonce' => nonce,
         'signature' => signature(service_name, operation, date, nonce)
-      }.merge(opts)
+      }.merge(parsed_opts(opts))
     end
 
     def message(opts = {})
       {
         'connectId' => connect_id
-      }.merge(opts)
+      }.merge(parsed_opts(opts))
+    end
+
+    def parsed_opts(opts)
+      opts.dup.tap{ |h| h.delete(:nokogiried) }
     end
   end
 end
